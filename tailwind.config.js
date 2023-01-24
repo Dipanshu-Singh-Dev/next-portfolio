@@ -7,6 +7,7 @@ module.exports = {
     extend: {
       fontFamily: {
         burtons: ["burtons"],
+        poppins: ["poppins"],
       },
     },
   },
