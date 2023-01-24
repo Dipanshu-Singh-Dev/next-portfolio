@@ -3,7 +3,7 @@ import { BsMoonStarsFill } from "react-icons/bs";
 const Navbar = () => {
   let theme = "light";
   return (
-    <div className="flex flex-row items-center justify-between pb-40">
+    <div className="flex flex-row items-center justify-between pb-24">
       <h1 className="font-burtons text-xl">Portfolio</h1>
       <div className="flex flex-row items-center gap-10 md:gap-15">
         <BsMoonStarsFill
