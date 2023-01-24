@@ -1,0 +1,31 @@
+{
+  "name": "next-portfolio",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "build:css": "tailwind build -i styles/globals.css -o static/tailwind.css",
+    "dev": "next dev",
+    "build": "next build",
+    "start": "run dev",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "@babel/core": "^7.20.12",
+    "@next/font": "13.1.4",
+    "babel": "^6.23.0",
+    "eslint": "8.32.0",
+    "eslint-config-next": "13.1.4",
+    "next": "13.1.4",
+    "nodemon": "^2.0.20",
+    "postcss-preset-env": "^7.8.3",
+    "react": "18.2.0",
+    "react-dom": "18.2.0",
+    "react-icons": "^4.7.1",
+    "watch": "^1.0.2"
+  },
+  "devDependencies": {
+    "autoprefixer": "^10.4.13",
+    "postcss": "^8.4.21",
+    "tailwindcss": "^3.2.4"
+  }
+}
