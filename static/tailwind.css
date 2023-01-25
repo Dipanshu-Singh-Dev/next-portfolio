@@ -602,6 +602,10 @@ video {
   padding-bottom: 4rem;
 }
 
+.pb-5 {
+  padding-bottom: 1.25rem;
+}
+
 .pb-24 {
   padding-bottom: 6rem;
 }
@@ -618,9 +622,9 @@ video {
   font-size: 60px;
 }
 
-.text-2xl {
-  font-size: 1.5rem;
-  line-height: 2rem;
+.text-4xl {
+  font-size: 2.25rem;
+  line-height: 2.5rem;
 }
 
 .text-xl {
@@ -632,8 +636,8 @@ video {
   font-weight: 100;
 }
 
-.font-medium {
-  font-weight: 500;
+.font-light {
+  font-weight: 300;
 }
 
 .text-transparent {
