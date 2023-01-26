@@ -4,6 +4,9 @@ import Image from "./Components/Image";
 import Intro from "./Components/Intro";
 import Navbar from "./Components/Navbar";
 import Skills from "./Components/Skills";
+import Github_Contribution from "./Components/Github_Contribution";
+import LeetCode_Activity from "./Components/LeetCode_Activity";
+import Projects from "./Components/Projects";
 
 export default function Home() {
   return (
@@ -12,6 +15,9 @@ export default function Home() {
       <Image />
       <Intro />
       <Skills />
+      <Github_Contribution />
+      <LeetCode_Activity />
+      <Projects />
     </div>
   );
 }

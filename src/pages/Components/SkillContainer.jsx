@@ -8,7 +8,7 @@ import {
   TbBrandPython,
   TbBrandTailwind,
 } from "react-icons/tb";
-import { SiJava, SiRedux } from "react-icons/si";
+import { SiJava, SiRedux, SiGit } from "react-icons/si";
 import { BsCircle, BsCircleFill } from "react-icons/bs";
 const SkillContainer = ({ name }) => {
   let [state, setState] = React.useState("No");
@@ -25,7 +25,7 @@ const SkillContainer = ({ name }) => {
     "Next.JS": (
       <>
         <BsCircleFill />
-        <BsCircleFill />
+        <BsCircle />
         <BsCircle />
       </>
     ),
@@ -78,6 +78,13 @@ const SkillContainer = ({ name }) => {
         <BsCircle />
       </>
     ),
+    Git: (
+      <>
+        <BsCircleFill />
+        <BsCircleFill />
+        <BsCircle />
+      </>
+    ),
   };
   const obj = {
     "React.JS": <TbBrandReactNative size={50} />,
@@ -89,6 +96,7 @@ const SkillContainer = ({ name }) => {
     Java: <SiJava size={50} />,
     Tailwind: <TbBrandTailwind size={50} />,
     Redux: <SiRedux size={40} />,
+    Git: <SiGit size={50} />,
   };
   return (
     <>

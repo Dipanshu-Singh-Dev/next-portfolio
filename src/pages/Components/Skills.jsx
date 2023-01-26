@@ -5,7 +5,6 @@ import { v4 as uuid } from "uuid";
 const Skills = () => {
   let skillsArr = [
     "React.JS",
-    "Next.JS",
     "Javascript",
     "CSS3",
     "HTML5",
@@ -13,9 +12,11 @@ const Skills = () => {
     "Java",
     "Tailwind",
     "Redux",
+    "Git",
+    "Next.JS",
   ];
   return (
-    <div>
+    <div className="pb-10">
       <h1 className="text-4xl text-cyan-700 dark:text-cyan-300">Skills :</h1>
       <div
         id="skills-container"
