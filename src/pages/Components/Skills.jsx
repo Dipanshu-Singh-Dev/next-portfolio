@@ -11,6 +11,8 @@ const Skills = () => {
     "HTML5",
     "Python",
     "Java",
+    "Tailwind",
+    "Redux",
   ];
   return (
     <div>
