@@ -7,6 +7,7 @@ import Skills from "./Components/Skills";
 import Github_Contribution from "./Components/Github_Contribution";
 import LeetCode_Activity from "./Components/LeetCode_Activity";
 import Projects from "./Components/Projects";
+import Google_Clone from "./Components/Google_Clone";
 
 export default function Home() {
   return (
