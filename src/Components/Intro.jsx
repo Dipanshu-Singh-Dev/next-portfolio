@@ -1,7 +1,8 @@
 import React from "react";
+import MotionDiv from "./MotionDiv";
 
 const Intro = () => {
-  return (
+  return MotionDiv(
     <div className="pb-20">
       <h1
         className={

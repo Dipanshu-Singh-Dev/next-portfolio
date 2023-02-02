@@ -1,7 +1,8 @@
 import React from "react";
+import MotionDiv from "./MotionDiv";
 
 const Github_Contribution = () => {
-  return (
+  return MotionDiv(
     <div className="text-4xl text-cyan-700 dark:text-cyan-300 pb-20">
       <h1 className="pb-16">Github Contributions :</h1>
       <img

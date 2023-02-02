@@ -1,9 +1,11 @@
 import React from "react";
 import { AiFillLinkedin, AiOutlineLinkedin } from "react-icons/ai";
+import MotionDiv from "./MotionDiv";
 const Contact = () => {
   let open = "{";
   let close = "}";
-  return (
+
+  return MotionDiv(
     <div className=" text-left mx-8 text-xl lg:mx-48 font-poppins md:mx-24 text-cyan-700 dark:text-cyan-200 flex flex-col gap-8">
       <p className="text-left">if (You want to work with me) {open}</p>
       <p className="text-left">Lets get in touch.</p>

@@ -1,6 +1,7 @@
 import React from "react";
+import MotionDiv from "./MotionDiv";
 const Projects = () => {
-  return (
+  return MotionDiv(
     <div className="text-4xl text-cyan-700 dark:text-cyan-300 pb-20">
       <h1 className="pb-10">Projects :</h1>
       <a href="http://elgoog-enolc.netlify.app">

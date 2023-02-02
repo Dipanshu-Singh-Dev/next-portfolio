@@ -1,8 +1,9 @@
 import Image from "next/image";
 import React from "react";
+import MotionDiv from "./MotionDiv";
 
 const img = () => {
-  return (
+  return MotionDiv(
     <div className="pb-16">
       <Image
         src="/profile.jpg"
