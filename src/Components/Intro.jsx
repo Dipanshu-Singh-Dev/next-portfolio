@@ -14,7 +14,7 @@ const Intro = () => {
       </h1>
       <br />
       <p className="text-cyan-500 dark:text-cyan-200 text-xl md:text-4xl  font-light">
-        I'm a Front-End Web Developer.
+        I'm a Web Developer.
         <br />I learnt my skills online and from fine instructors at Masai.
       </p>
     </div>
