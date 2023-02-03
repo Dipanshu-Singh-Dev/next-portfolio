@@ -11,7 +11,7 @@ const Navbar = () => {
         <VscSmiley />
       </h1>
       <div className="flex flex-row items-center gap-10 md:gap-15">
-        <BsMoonStarsFill
+        {/* <BsMoonStarsFill
           style={{ cursor: "pointer" }}
           size={"28px"}
           onClick={() => {
@@ -23,7 +23,7 @@ const Navbar = () => {
               document.querySelector("body").className = "dark";
             }
           }}
-        />
+        /> */}
         <a href="">
           <button className="text-white bg-gradient-to-r from-cyan-500 to-teal-500 rounded-md py-1.5 px-5">
             Resume
