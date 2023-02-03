@@ -24,7 +24,7 @@ const Navbar = () => {
             }
           }}
         /> */}
-        <a href="">
+        <a href="https://drive.google.com/file/d/1yzt8Yi1bHYfUflHh9onSlF3N5SwewW_e/view?usp=sharing">
           <button className="text-white bg-gradient-to-r from-cyan-500 to-teal-500 rounded-md py-1.5 px-5">
             Resume
           </button>
