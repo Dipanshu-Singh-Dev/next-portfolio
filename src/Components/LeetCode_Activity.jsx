@@ -7,7 +7,7 @@ const LeetCode_Activity = () => {
       <h1 className="pb-10">LeetCode Activity :</h1>
       <img
         className="mx-auto"
-        src="https://leetcard.jacoblin.cool/dipanshu_singh_dev?ext=heatmap&font=Poppins&theme=wtf,nord&width=1000&height=400"
+        src="https://leetcard.jacoblin.cool/dipanshu_singh_dev?ext=heatmap&font=Poppins&theme=light,dark&width=1000&height=400"
       />
     </div>
   );

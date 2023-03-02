@@ -9,7 +9,7 @@ import LeetCode_Activity from "../Components/LeetCode_Activity";
 import Projects from "../Components/Projects";
 import Contact from "@/Components/Contact";
 import Head from "next/head";
-
+import Footer from "@/Components/Footer";
 export default function Home() {
   return (
     <>
@@ -25,6 +25,7 @@ export default function Home() {
         <LeetCode_Activity />
         <Projects />
         <Contact />
+        <Footer />
       </div>
     </>
   );
