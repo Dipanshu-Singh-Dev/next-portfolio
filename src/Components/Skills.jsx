@@ -14,6 +14,7 @@ const Skills = () => {
     "Redux",
     "Git",
     "Next.JS",
+    "Framer Motion",
   ];
   const variants = {
     inView: {

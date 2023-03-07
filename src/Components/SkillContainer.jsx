@@ -8,6 +8,7 @@ import {
   TbBrandPython,
   TbBrandTailwind,
 } from "react-icons/tb";
+import { IconBrandFramerMotion as FramerMotion } from "@tabler/icons-react";
 import { SiJava, SiRedux, SiGit } from "react-icons/si";
 import { BsCircle, BsCircleFill } from "react-icons/bs";
 const SkillContainer = ({ name }) => {
@@ -20,6 +21,13 @@ const SkillContainer = ({ name }) => {
         <BsCircleFill />
         <BsCircleFill />
         <BsCircleFill />
+      </>
+    ),
+    "Framer Motion": (
+      <>
+        <BsCircleFill />
+        <BsCircle />
+        <BsCircle />
       </>
     ),
     "Next.JS": (
@@ -89,6 +97,7 @@ const SkillContainer = ({ name }) => {
   const obj = {
     "React.JS": <TbBrandReactNative size={50} />,
     "Next.JS": <TbBrandNextjs size={50} />,
+    "Framer Motion": <FramerMotion size={40} />,
     Javascript: <TbBrandJavascript size={50} />,
     CSS3: <TbBrandCss3 size={50} />,
     HTML5: <TbBrandHtml5 size={50} />,
